@@ -1,9 +1,25 @@
 html {
-  background-image: radial-gradient(#fbfbf3 50%, #f3edd9);
-  background-size: cover;
-  background-repeat: no-repeat;
   min-height: 100vh;
 }
 body {
-  font-family: 'Sen', sans-serif;
+  font-family: 'Sen', sans-serif !important;
+  background-image: radial-gradient(#fbfbf3 50%, #f3edd9);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fs-14 {
+  font-size: 14px !important;
+}
+.orange-color {
+  color: #e66439 !important;
+}
+.bg-orange-color {
+  background-color: #e66439 !important;
+}
+.outline-orange-color {
+  border: 1px solid #e66439 !important;
+}
+.hide-text-decoration {
+  text-decoration: none !important;
 }
