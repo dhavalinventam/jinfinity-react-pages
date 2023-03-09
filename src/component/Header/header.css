@@ -1,0 +1,7 @@
+.header-logo-div {
+    text-align: center;
+    padding: 40px;
+}
+.header-logo-div img {
+    max-width: 140px;
+}

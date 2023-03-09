@@ -1,0 +1,9 @@
+html {
+  background-image: radial-gradient(#fbfbf3 50%, #f3edd9);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+body {
+  font-family: 'Sen', sans-serif;
+}
