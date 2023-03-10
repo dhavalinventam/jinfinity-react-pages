@@ -3,6 +3,7 @@ import { Button, Col, Row } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import "../Card/card.css";
 import AssignTestModal from '../Modal/assign-test-modal';
+import OrderTestModal from '../Modal/order-test-modal';
 
 const Index = () => {
     const [modalShow, setModalShow] = React.useState(false);
@@ -28,7 +29,7 @@ const Index = () => {
                 </ul>
               </div>
               <div className="card-action-div">
-                <Button className="bg-orange-color outline-orange-color fs-14 fw-bold">
+                <Button className="bg-orange-color outline-orange-color fs-14 fw-bold" onClick={() => setModalShow(true)}>
                   Order test kits
                 </Button>
                 <Button
@@ -136,6 +137,11 @@ const Index = () => {
         <AssignTestModal
              show={modalShow}
              onHide={() => setModalShow(false)}
+        />
+
+        <OrderTestModal
+          show={modalShow}
+          onHide={() => setModalShow(false)}
         />
       </Container>
     </>
